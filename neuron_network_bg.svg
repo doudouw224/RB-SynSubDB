@@ -1,0 +1,128 @@
+<svg width="1200" height="800" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景渐变 -->
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8f9fa" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#e9ecef" stop-opacity="0.9" />
+    </linearGradient>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="100%" height="100%" fill="url(#bg-gradient)" />
+  
+  <!-- 神经元网络 -->
+  <g stroke="#3498db" stroke-width="1" opacity="0.2">
+    <!-- 神经元连接线 -->
+    <!-- 第一组连接 -->
+    <line x1="100" y1="100" x2="300" y2="150" />
+    <line x1="100" y1="100" x2="250" y2="200" />
+    <line x1="100" y1="100" x2="200" y2="300" />
+    
+    <line x1="300" y1="150" x2="450" y2="100" />
+    <line x1="300" y1="150" x2="500" y2="200" />
+    <line x1="300" y1="150" x2="400" y2="300" />
+    
+    <line x1="450" y1="100" x2="600" y2="150" />
+    <line x1="450" y1="100" x2="550" y2="50" />
+    
+    <line x1="600" y1="150" x2="750" y2="100" />
+    <line x1="600" y1="150" x2="700" y2="250" />
+    
+    <!-- 第二组连接 -->
+    <line x1="200" y1="400" x2="350" y2="450" />
+    <line x1="200" y1="400" x2="300" y2="500" />
+    
+    <line x1="350" y1="450" x2="500" y2="400" />
+    <line x1="350" y1="450" x2="450" y2="550" />
+    
+    <line x1="500" y1="400" x2="650" y2="450" />
+    <line x1="500" y1="400" x2="600" y2="350" />
+    
+    <line x1="650" y1="450" x2="800" y2="400" />
+    <line x1="650" y1="450" x2="750" y2="550" />
+    
+    <!-- 第三组连接 -->
+    <line x1="150" y1="600" x2="300" y2="650" />
+    <line x1="150" y1="600" x2="250" y2="700" />
+    
+    <line x1="300" y1="650" x2="450" y2="600" />
+    <line x1="300" y1="650" x2="400" y2="750" />
+    
+    <line x1="450" y1="600" x2="600" y2="650" />
+    <line x1="450" y1="600" x2="550" y2="550" />
+    
+    <line x1="600" y1="650" x2="750" y2="600" />
+    <line x1="600" y1="650" x2="700" y2="750" />
+    
+    <!-- 跨组连接 -->
+    <line x1="250" y1="200" x2="350" y2="450" stroke-dasharray="5,5" />
+    <line x1="500" y1="200" x2="500" y2="400" stroke-dasharray="5,5" />
+    <line x1="400" y1="300" x2="300" y2="500" stroke-dasharray="5,5" />
+    <line x1="450" y1="550" x2="300" y2="650" stroke-dasharray="5,5" />
+    <line x1="600" y1="350" x2="550" y2="550" stroke-dasharray="5,5" />
+  </g>
+  
+  <!-- 神经元节点 -->
+  <g>
+    <!-- 第一组节点 -->
+    <circle cx="100" cy="100" r="8" fill="#3498db" opacity="0.6" />
+    <circle cx="300" cy="150" r="8" fill="#3498db" opacity="0.6" />
+    <circle cx="250" cy="200" r="8" fill="#3498db" opacity="0.6" />
+    <circle cx="200" cy="300" r="8" fill="#3498db" opacity="0.6" />
+    <circle cx="450" cy="100" r="8" fill="#3498db" opacity="0.6" />
+    <circle cx="500" cy="200" r="8" fill="#3498db" opacity="0.6" />
+    <circle cx="400" cy="300" r="8" fill="#3498db" opacity="0.6" />
+    <circle cx="600" cy="150" r="8" fill="#3498db" opacity="0.6" />
+    <circle cx="550" cy="50" r="8" fill="#3498db" opacity="0.6" />
+    <circle cx="750" cy="100" r="8" fill="#3498db" opacity="0.6" />
+    <circle cx="700" cy="250" r="8" fill="#3498db" opacity="0.6" />
+    
+    <!-- 第二组节点 -->
+    <circle cx="200" cy="400" r="8" fill="#3498db" opacity="0.6" />
+    <circle cx="350" cy="450" r="8" fill="#3498db" opacity="0.6" />
+    <circle cx="300" cy="500" r="8" fill="#3498db" opacity="0.6" />
+    <circle cx="500" cy="400" r="8" fill="#3498db" opacity="0.6" />
+    <circle cx="450" cy="550" r="8" fill="#3498db" opacity="0.6" />
+    <circle cx="650" cy="450" r="8" fill="#3498db" opacity="0.6" />
+    <circle cx="600" cy="350" r="8" fill="#3498db" opacity="0.6" />
+    <circle cx="800" cy="400" r="8" fill="#3498db" opacity="0.6" />
+    <circle cx="750" cy="550" r="8" fill="#3498db" opacity="0.6" />
+    
+    <!-- 第三组节点 -->
+    <circle cx="150" cy="600" r="8" fill="#3498db" opacity="0.6" />
+    <circle cx="300" cy="650" r="8" fill="#3498db" opacity="0.6" />
+    <circle cx="250" cy="700" r="8" fill="#3498db" opacity="0.6" />
+    <circle cx="450" cy="600" r="8" fill="#3498db" opacity="0.6" />
+    <circle cx="400" cy="750" r="8" fill="#3498db" opacity="0.6" />
+    <circle cx="600" cy="650" r="8" fill="#3498db" opacity="0.6" />
+    <circle cx="550" cy="550" r="8" fill="#3498db" opacity="0.6" />
+    <circle cx="750" cy="600" r="8" fill="#3498db" opacity="0.6" />
+    <circle cx="700" cy="750" r="8" fill="#3498db" opacity="0.6" />
+  </g>
+  
+  <!-- 小鼠脑部轮廓 -->
+  <g transform="translate(900, 200) scale(0.5)" stroke="#2c3e50" stroke-width="3" fill="none" opacity="0.3">
+    <path d="M100,150 C120,100 180,80 240,100 C300,120 340,100 380,120 C420,140 440,200 400,240 C360,280 300,300 240,280 C180,260 140,240 120,200 C100,160 80,200 100,150 Z" />
+    <!-- 脑部内部结构简化表示 -->
+    <path d="M180,180 C200,160 240,150 280,160 C320,170 340,200 320,220 C300,240 260,250 220,240 C180,230 160,200 180,180 Z" />
+    <path d="M300,140 C320,130 340,140 350,160 C360,180 350,200 330,210 C310,220 290,210 280,190 C270,170 280,150 300,140 Z" />
+  </g>
+  
+  <!-- 神经元脉冲动画效果 -->
+  <g>
+    <circle cx="300" cy="150" r="15" fill="#3498db" opacity="0">
+      <animate attributeName="opacity" values="0;0.3;0" dur="3s" repeatCount="indefinite" begin="0s" />
+      <animate attributeName="r" values="8;25;8" dur="3s" repeatCount="indefinite" begin="0s" />
+    </circle>
+    
+    <circle cx="500" cy="400" r="15" fill="#3498db" opacity="0">
+      <animate attributeName="opacity" values="0;0.3;0" dur="3s" repeatCount="indefinite" begin="1s" />
+      <animate attributeName="r" values="8;25;8" dur="3s" repeatCount="indefinite" begin="1s" />
+    </circle>
+    
+    <circle cx="600" cy="650" r="15" fill="#3498db" opacity="0">
+      <animate attributeName="opacity" values="0;0.3;0" dur="3s" repeatCount="indefinite" begin="2s" />
+      <animate attributeName="r" values="8;25;8" dur="3s" repeatCount="indefinite" begin="2s" />
+    </circle>
+  </g>
+</svg>
